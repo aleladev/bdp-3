@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brasserie de Pépiole</title>
+    <meta
+      name="description"
+      content="Une bière artisanale brassée par une femme, Binouze Girl / Emilie à Six-Fours-les-Plages dans le Var. Rendez-vous à la cave à vins de son mari pour en déguster toutes les déclinaisons (blanche, blonde, IPA, ambrée, brune, et même hybride au gré des envies) !"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="ressources/Logo.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Give+You+Glory&family=Gotu&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body class= "page-4">
+
+   
+    <header>
+                <!-- Barre de titre -->
+        <div class="container-jaune">
+          <img class="img-container-jaune gauche" src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+          <img class="img-container-jaune  titre-bdp"src="ressources/titre-bdp.png" alt="nom de la Brasserie">
+          <img class="img-container-jaune droite"src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+        </div>
+      
+                
+        <!-- Bouton hamburger, animé par CSS et JavaScript pour petits écrans dans la barre de titre -->
+        <div class="btn">
+          <div class="ligne"></div>
+        </div>
+  
+        <!-- Menu de navigation-->
+        <nav>
+        <!-- accordéon pour petits écrans -->
+          <ul class="liste">
+            <li class="items-accordeon">
+              <a href="index.html"><span>Accueil</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="bieres.html"><span>Nos bières</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="apropos.html"><span>A propos</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="lieuxdevente.html"><span>Points de vente & contact</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="galerie.html"><span>Galerie</span></a>
+            </li>
+            <li class="items-accordeon"><img class= "tampon-liste" src="ressources/tampon.png"  alt=""></li>
+            
+          </ul>
+        </nav>
+        <!-- barre pour plus grands écrans / voir si on peut garder le même menu pour éviter les répétitions-->
+        <div>  
+          <ul class="container-vert-ligne">
+            <li class="items-barre"><a href="index.html">Accueil</a></li>
+            <li class="items-barre"><a href="bieres.html">Nos bières</a></li>
+            <li class="items-barre"><a href="apropos.html">À propos</a></li>
+            <li class="items-barre"><a href="lieuxdevente.html">Points de vente & contact</a></li>
+            <li class="items-barre"><a href="galerie.html">Galerie</a></li>
+          </ul>
+        </div> 
+    
+    </header>
+    
+    <section class="container-lieux">
+        <h1 class="titre-lieux">Où trouver nos&nbsp;bières</h1>
+        <p class="instructions-lieux"> En cliquant sur les chopes de bière ou en déroulant les listes (coin supérieur gauche), vous découvrirez toutes les informations sur les différents endroits où  retrouver nos bières, à emporter ou à déguster sur place... N'hésitez pas à agrandir les cartes (coin supérieur droit) !</p>
+        <div class="lieux">
+            <h3 class="grid-item-vente grid-item-lieux-contact1">Points de vente</h3>
+            <h3 class="grid-item-vente grid-item-lieux-contact2">Restaurants</h3>
+            <img class="punaise-gauche" src="ressources/punaise-gauche.png" alt="punaise">
+            <img class="punaise-droite" src="ressources/punaise-droite.png" alt="punaise">
+            <iframe class= "points-vente grid-item-vente grid-item-lieux-contact3" src="https://www.google.com/maps/d/u/0/embed?mid=1fLvSqqa2EhAQY931v47t4tlIuwwWIaY&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+            <iframe class= "restaurants grid-item-vente grid-item-lieux-contact4" src="https://www.google.com/maps/d/u/3/embed?mid=1vEgy8t0QQSZ3qRg7CbFJfCiYfozmtyQ&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+            <h3 class="grid-item-vente grid-item-contact grid-item-lieux-contact5" >Nous contacter</h3>
+            
+            <div class="contact-card grid-item-lieux-contact6">
+              <div class="contact-header">
+                  <img class="logo-complet-rond" src="ressources/logo-complet-rond.png" alt="logo Brasserie de Pépiole">
+              </div>
+              <div class="contact-content"> 
+                <div class="contact-content-item adresse">
+                  <img class="icones-carte-contact" src="ressources/localisation.png" alt="maison">
+                  <p> <strong>Brasserie de Pépiole</strong> <br>
+                  2005, av. du Président John&nbsp;Kennedy <br>
+                  83140 Six-Fours-les-Plages
+                  </p>
+                </div>
+                <div class="contact-content-item telephone">
+                  <img class="icones-carte-contact" src="ressources/telephone.png" alt="téléphone">
+                  <p class="paragraphe-telephone"><strong>Emilie Doneddu : </strong>06 70 11 51 51</p>
+                </div>
+                <div class="contact-content-item email">
+                  <img class="icones-carte-contact" src="ressources/email.png" alt="enveloppe">
+                  <p class="paragraphe-email"> <a href="mailto:bieredepepiole@orange.fr"><strong>bieredepepiole@orange.fr</strong></a></p>
+                </div> 
+              </div>
+              <div class="contact-footer">
+                  <a href="https://www.facebook.com/emilie.doneddu.9/" target="_blank"><img class ="facebook" src="ressources/facebook.png" alt="lien facebook"></a>
+
+                  <a href="https://www.instagram.com/biere_de_pepiole/" target="_blank"><img class= "instagram" src="ressources/instagram.png" alt="lien instagram"></a>
+              </div>
+            </div>
+         
+        </div> 
+    </section>  
+    <footer class="footer-bieres">
+      <img class ="binouze-blanche" src="ressources/binouze-blanche.png" alt="binouze-girl blanche"> 
+      <p class ="abus">L'abus d'alcool est dangereux pour&nbsp;la&nbsp;santé, à&nbsp;consommer&nbsp;avec&nbsp;modération&nbsp;&nbsp;!</p>
+      <img class ="binouze-blanche" src="ressources/binouze-blanche.png" alt="binouze-girl blanche"> 
+    </footer>
+    <script src="script.js"></script> 
+  </body>
+</html>

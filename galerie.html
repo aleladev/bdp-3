@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brasserie de Pépiole</title>
+    <meta
+      name="description"
+      content="Une bière artisanale brassée par une femme, Binouze Girl / Emilie à Six-Fours-les-Plages dans le Var. Rendez-vous à la cave à vins de son mari pour en déguster toutes les déclinaisons (blanche, blonde, IPA, ambrée, brune, et même hybride au gré des envies) !"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="ressources/Logo.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Give+You+Glory&family=Gotu&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body class= "page-5">
+
+   
+    <header>
+                <!-- Barre de titre -->
+        <div class="container-jaune">
+          <img class="img-container-jaune gauche" src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+          <img class="img-container-jaune  titre-bdp"src="ressources/titre-bdp.png" alt="nom de la Brasserie">
+          <img class="img-container-jaune droite"src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+        </div>
+      
+                
+        <!-- Bouton hamburger, animé par CSS et JavaScript pour petits écrans dans la barre de titre -->
+        <div class="btn">
+          <div class="ligne"></div>
+        </div>
+  
+        <!-- Menu de navigation-->
+        <nav>
+        <!-- accordéon pour petits écrans -->
+          <ul class="liste">
+            <li class="items-accordeon">
+              <a href="index.html" ><span>Accueil</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="bieres.html" ><span>Nos bières</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="apropos.html" ><span>A propos</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="lieuxdevente.html" ><span>Points de vente & contact</span></a>
+            </li>
+            <li class="items-accordeon">
+                <a href="galerie.html" ><span>Galerie</span></a>
+            </li>
+            <li class="items-accordeon"><img class= "tampon-liste" src="ressources/tampon.png"  alt=""></li>
+            
+          </ul>
+        </nav>
+        <!-- barre pour plus grands écrans /voir si on peut garder le même menu pour éviter les répétitions-->
+        <div>  
+          <ul class="container-vert-ligne">
+            <li class="items-barre"><a href="index.html" >Accueil</a></li>
+            <li class="items-barre"><a href="bieres.html" >Nos bières</a></li>
+            <li class="items-barre"><a href="apropos.html" >À propos</a></li>
+            <li class="items-barre"><a href="lieuxdevente.html" >Points de vente & contact</a></li>
+            <li class="items-barre"><a href="galerie.html" >Galerie</a></li>
+          </ul>
+        </div> 
+    
+    </header>
+  <main>
+    <h1 class="titre-galerie">Découvrez-nous en images...</h1>
+    <!-- <h2>Explorez notre galerie pour en découvrir plus sur nous, nos bières, et leur processus de fabrication</h2> -->
+    <section class="container-central-galerie">
+    <div class="container-bouton-video container-bouton-video-gauche">  
+      <div id="precedent" onclick="ChangeSlide(-1)"><img class="bouton-gauche" src="ressources/bouton-gauche.png" alt=""></div>
+      <video class="background-video" autoplay loop muted>
+        <source src="ressources/video-biere.mp4" type="video/mp4">
+        </video> 
+    </div>
+      <div id="slider">
+        <img class= "image-galerie" src="photos/bieres/image0.png" alt="image0" id="slide">
+      </div>
+      
+    
+    <div class="container-bouton-video container-bouton-video-droit"> 
+      <div id="suivant" onclick="ChangeSlide(1)"><img class= "bouton-droit" src="ressources/bouton-droit.png" alt="">
+      </div>
+      <video class="background-video" autoplay loop muted>
+        <source src="ressources/video-biere.mp4" type="video/mp4">
+        </video>
+    </div>
+    </section>
+  </main> 
+
+<script src="script.js"></script>
+</body>
+<!-- je te kiff -->
+</html>

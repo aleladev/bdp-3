@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brasserie de Pépiole</title>
+    <meta
+      name="description"
+      content="Une bière artisanale brassée par une femme, Binouze Girl / Emilie à Six-Fours-les-Plages dans le Var. Rendez-vous à la cave à vins de son mari pour en déguster toutes les déclinaisons (blanche, blonde, IPA, ambrée, brune, et même hybride au gré des envies) !"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="ressources/Logo.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Give+You+Glory&family=Gotu&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="page-2">
+
+    <header>
+                <!-- Barre de titre -->
+      <div class="container-jaune">
+          <img class="img-container-jaune gauche" src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+          <img class="img-container-jaune  titre-bdp"src="ressources/titre-bdp.png" alt="nom de la Brasserie">
+          <img class="img-container-jaune droite"src="ressources/logo-nav.png" alt="Logo Brasserie de Pépiole" />
+      </div>
+      
+                
+        <!-- Bouton hamburger, animé par CSS et JavaScript pour petits écrans dans la barre de titre -->
+      <div class="btn">
+          <div class="ligne"></div>
+      </div>
+  
+        <!-- Menu de navigation-->
+      <nav>
+        <!-- accordéon pour petits écrans -->
+        <ul class="liste">
+          <li class="items-accordeon">
+            <a href="index.html" ><span>Accueil</span></a>
+          </li>
+          <li class="items-accordeon">
+            <a href="bieres.html" ><span>Nos bières</span></a>
+            </li>
+          <li class="items-accordeon">
+            <a href="apropos.html" ><span>A propos</span></a>
+          </li>
+          <li class="items-accordeon">
+            <a href="lieuxdevente.html" ><span>Points de vente & contact</span></a>
+          </li>
+          <li class="items-accordeon">
+            <a href="galerie.html" ><span>Galerie</span></a>
+          </li>
+          <li class="items-accordeon"><img class= "tampon-liste" src="ressources/tampon.png"  alt=""></li>
+            
+        </ul>
+      </nav>
+        <!-- barre pour plus grands écrans /voir si on peut garder le même menu pour éviter les répétitions-->
+      <div>  
+        <ul class="container-vert-ligne">
+          <li class="items-barre"><a href="index.html" >Accueil</a></li>
+          <li class="items-barre"><a href="bieres.html" >Nos bières</a></li>
+          <li class="items-barre"><a href="apropos.html" >À propos</a></li>
+          <li class="items-barre"><a href="lieuxdevente.html" >Points de vente & contact</a></li>
+          <li class="items-barre"><a href="galerie.html" >Galerie</a></li>
+        </ul>
+      </div> 
+    </header>
+
+    <main class="container-presentation">
+      <!-- Présentation des bières (partie entre les bandes du haut et la bande du bas) -->                
+        <!-- Le titre -->
+        <!-- <div class="bandeau-titre-bieres"> -->
+            <!-- <img class="cereales" src="ressources/cereales.png" alt="céréales"> -->
+            <div class="bandeau-titre-bieres">
+              <div class="cereales"><img src="ressources/chopes2.png" alt="chopes"></div> 
+              <div class="titre-et-texte">
+              
+              <h1 class="titre-bieres">Nos bières by&nbsp;Binouze&nbsp;Girl</h1>
+              <p class="texte-presentation">Pour découvrir nos bières, leur composition, leur degré d'alcool ou comment les accorder, c'est&nbsp;par&nbsp;ici&nbsp;!</p>
+              </div>
+              <div class= "chopes"><img src="ressources/chopes2.png"  alt="chopes"></div>
+               
+              </div>  
+              <!--   -->
+
+            </div>
+            <!-- <img class= "chopes" src="ressources/chopes.png"  alt="chopes">      -->
+        <!-- </div> -->
+
+        <!-- Container central -->
+            
+        <!-- <div class="container-central-cartes">
+          <img class="cereales" src="ressources/cereales.png" alt="">
+          <img class="biere-ble" src="biere-ble" alt=""> -->
+          <!-- <img src="ressources/ble-gauche.png" class="ble" alt="blé">
+            
+              Les cartes -->
+          <div class="card-container">
+            <!-- Containers de cartes par 2 -->
+            <div class="container-1">
+                  <!-- Carte 1 -->
+              <div class="card card1">
+                <div class="imgBx imgBx-1">
+                    <img class ="image-biere" src="ressources/blanche.png" alt="bière blanche">
+                </div>
+                <div class="infos infos-1">
+                  <h2 class="nom-biere"> La blanche </h2>
+                  <div class="btn-carte btn-carte-1">
+                    <div class="ligne-plus"></div>
+                  </div>
+                  <div class="data">
+                    <h3>Composition :</h3> <span> eau, malt d'orge et de blé, pain, houblons, sucre, levures </span> <br>
+                    <h3>Degré d'alcool :</h3> 4,5 % <br>
+                    <h3>Nez :</h3> arômes exotiques évoluant sur le lychee avec des notes épicées <br>
+                    <h3>Dégustation :</h3> attaque fraîche et dynamique marquée par les agrumes <br>
+                    <h3>Accords possibles :</h3> apéritif, cuisine asiatique, sushis,...      
+                  </div> 
+                </div> 
+              </div>
+                  <!-- Carte 2 -->
+              <div class="card card2">
+                <div class="imgBx imgBx-2">
+                  <img class ="image-biere" src="ressources/blonde.png" alt="bière blonde">
+                </div>
+                <div class="infos infos-2">
+                  <h2 class="nom-biere"> La blonde </h2>
+                  <div class="btn-carte btn-carte-2">
+                    <div class="ligne-plus"></div>
+                  </div>
+                  <div class="data">
+                    <h3>Composition :</h3> <span>eau, malt d'orge et de blé, houblons, sucre, levures</span><br>
+                    <h3>Degré d'alcool :</h3> <span>5,8 %</span><br>
+                    <h3>Nez :</h3> <span>nez de malt et de levure évoluant sur des notes florales</span><br>
+                    <h3>Dégustation :</h3> <span>notes de fruits et plus particulièrement de pommes à cidre</span><br>
+                    <h3>Accords possibles :</h3><span> apéritif, volailles crémées, plateau de fromages,...</span><br>
+                  </div>
+                </div>  
+              </div>
+              
+                  <!-- Carte 3 -->
+                  
+              <div class="card card3">
+                <div class="imgBx imgBx-3">
+                  <img class ="image-biere" src="ressources/ipa.png" alt="L'IPA">
+                </div>
+                <div class="infos infos-3">
+                  <h2 class="nom-biere"> L'IPA </h2>
+                  <div class="btn-carte btn-carte-3">
+                    <div class="ligne-plus"></div>
+                  </div>    
+                  <div class="data">
+                    <h3>Composition :</h3> <span> eau, malt d'orge, houblons, levures, sucre </span> <br>
+                    <h3>Degré d'alcool :</h3> 6,5 % <br>
+                    <h3>Nez :</h3> senteurs d'agrumes particulièrement marquées par l'écorce de pamplemousse rose et l'amande fraiche. <br>
+                    <h3>Dégustation :</h3> attaque franche, évoluant sur une belle amertume marquée par les agrumes <br>
+                    <h3>Accords possibles :</h3> tartare de poissons, crustacés, plateau de fromages affinés,...
+                  </div>
+                </div>  
+              </div>
+            </div>
+                  <!-- Carte 4 -->
+                  <div class="container-2">
+              <div class="card card4">
+                <div class="imgBx imgBx-4">
+                  <img class ="image-biere" src="ressources/ambree.png" alt="bière ambrée">
+                </div>
+                <div class="infos infos-4">
+                  <h2 class="nom-biere"> L'ambrée </h2>
+                  <div class="btn-carte btn-carte-4">
+                    <div class="ligne-plus"></div>
+                  </div>
+                  <div class="data">
+                    <h3>Composition :</h3> <span> eau, malt d'orge, houblons, levures, sucre</span> <br>
+                    <h3>Degré d'alcool :</h3> 5,5 % <br>
+                    <h3>Nez :</h3> Le nez est tout d'abord épicé, avec des notes de clou de girofle, on trouve dans un second temps des notes de caramel beurre salé <br>
+                    <h3>Dégustation :</h3> attaque franche sur l'amertume évoluant sur la réglisse <br>
+                    <h3>Accords possibles :</h3> canard aux épices, filet mignon rôti au miel, charcuteries fumées,...    
+                  </div> 
+                </div> 
+              </div>
+             
+                  <!-- Carte 5 -->
+                  
+              <div class="card card5">
+                <div class="imgBx imgBx-5">
+                  <img class ="image-biere" src="ressources/brune.png" alt="bière brune, la dark side">
+                </div>
+                <div class="infos infos-5">
+                  <h2 class="nom-biere"> La dark side </h2>
+                  <div class="btn-carte btn-carte-5">
+                    <div class="ligne-plus"></div>
+                  </div>
+                  <div class="data">
+                    <h3>Composition :</h3> <span> eau, malt d'orge, houblons, eau de vie de marc du domaine de la Laidière, levures, sucre </span> <br>
+                    <h3>Degré d'alcool :</h3> 6 % <br>
+                    <h3>Nez :</h3> nez caractérisé par des arômes de café et de cacao torréfiés <br>
+                    <h3>Dégustation :</h3> attaque souple, amertume légère, notes de réglisse et de zan <br>
+                    <h3>Accords possibles :</h3> charcuteries, rognons de veau, plat de gibiers, foie gras aux épices,...    
+                  </div> 
+                </div>  
+              </div>
+                  <!-- Carte 6 -->
+              <div class="card card6">
+                <div class="imgBx imgBx-6">
+                  <img class ="image-biere" src="ressources/hybride2.png" alt="bière hybride">
+                </div>
+                <div class="infos infos-6">
+                  <h2 class="nom-biere"> L'hybride </h2> 
+                  <div class="btn-carte btn-carte-6">
+                    <div class="ligne-plus"></div>
+                  </div>           
+                  <div class="data data-6">
+                    <p> Au gré des envies de Binouze Girl, à découvrir ! </p>      
+                  </div> 
+                </div>   
+              </div>
+            </div>    
+        </div>
+        <!-- </div> -->
+    </main>
+
+    <footer class="footer-bieres">
+      <img class ="binouze-blanche" src="ressources/binouze-blanche.png" alt="binouze-girl blanche"> 
+      <p class ="abus">L'abus d'alcool est dangereux pour&nbsp;la&nbsp;santé, à&nbsp;consommer&nbsp;avec&nbsp;modération&nbsp;&nbsp;!</p>
+      <img class ="binouze-blanche" src="ressources/binouze-blanche.png" alt="binouze-girl blanche"> 
+    </footer>
+ <script src="script.js"></script>
+  </body>
+    

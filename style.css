@@ -575,7 +575,7 @@ nav {
     /* background:#ab977d; */
     display: flex;
     flex-direction: column;
-    background-image: url(ressources/bg_2.png);
+    background-image: url(ressources/bg_2.jpg);
     background-size: cover;
     background-position:top right;
     background-attachment: fixed;

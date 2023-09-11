@@ -1206,6 +1206,7 @@ nav {
     background-image: url(ressources/boussole7001.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+    background-attachment: fixed;
 }
 
 .titre-lieux {

@@ -989,6 +989,12 @@ nav {
         padding: 15px 0;
         text-align: center;
     } 
+@media screen and (max-width: 1020px) {
+        .footer-bieres {
+            position: fixed;
+            width: 100%;
+        }
+}
 
 @media screen and (max-width: 900px) {
 
@@ -1037,17 +1043,22 @@ nav {
 .page-3 {
     width: 100%;
     height: 100vh;
-    background: var(--main-background)
+    /* background: var(--main-background); */
+    background-image: url(ressources/bg_5.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .grid-container {
-    top: 150px;
+    top: 170px;
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: 320px 245px 200px;
     justify-content: center;
     
-    grid-gap: 10px;
+    grid-gap: 20px;
     position: relative;
     margin: 0 auto;
 
@@ -1055,7 +1066,9 @@ nav {
 
     .grid-1 { 
         grid-column-start: 1;
-        grid-column-end: 3; 
+        grid-column-end: 3;
+        padding: 2px;
+        background: var(--main-yellow)
     
         
     }
@@ -1085,7 +1098,7 @@ nav {
     } 
 
     .grid-4 img {
-        height: 100%
+        height: 80%;
     }
 
 
@@ -1133,7 +1146,7 @@ nav {
     height: auto;
     align-self: center;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     align-items: center;
     
 }
@@ -1170,6 +1183,7 @@ nav {
 }
 
 @media screen and (max-width: 876px) {
+
 
 .grid-container {
     top: 100px;

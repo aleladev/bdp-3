@@ -744,6 +744,10 @@ nav {
                 }
 
                 @media screen and (max-width: 1020px) {
+                   .card-container {
+                    margin-bottom: 150px;
+                   }
+                   
                     .card {
                     margin: 0;
                 }
@@ -1403,6 +1407,7 @@ nav {
     .lieux {
         grid-template-columns: 400px;
         grid-template-rows: 40px 1.1fr 40px 1.1fr 40px 1fr;
+        margin-bottom: 100px;
     }
 
     .grid-item-lieux-contact1 {
@@ -1459,6 +1464,7 @@ nav {
 .lieux {
     grid-template-columns: 400px;
     grid-template-rows: 40px 350px 40px 350px 40px 390px;
+
     
 }
 
